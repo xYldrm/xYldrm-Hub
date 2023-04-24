@@ -1,0 +1,135 @@
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+getgenv().SecureMode = true
+
+local Window = Rayfield:CreateWindow({
+	Name = "Pet Simulator X - xYldrm Hub",
+	LoadingTitle = "Pet Simulator X - xYldrm Hub",
+	LoadingSubtitle = "Subscribe to xYldrm on YouTube!",
+})
+local Tab = Window:CreateTab("Main GUI's")
+local Section = Tab:CreateSection("Pet Simulator X Main GUI's")
+local TabUtil = Window:CreateTab("Utility")
+local SectionUtil = TabUtil:CreateSection("Pet Simulator X Utility")
+local TabOther = Window:CreateTab("Side GUI's")
+local SectionOther = TabOther:CreateSection("Pet Simulator X Side GUI's")
+
+local Label = Tab:CreateLabel("Thanks for using xYldrm Hub!")
+local Label = TabUtil:CreateLabel("Thanks for using xYldrm Hub!")
+local Label = TabOther:CreateLabel("Thanks for using xYldrm Hub!")
+
+
+local Button = Tab:CreateButton({
+	Name = "BEST - Milk Up (#1)",
+	Callback = function()
+		loadstring(game:HttpGet("https://milkup.info/script/PetSimulatorX/"))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "NEW - Hoho Hub",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "Project WD",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua"))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "Cipex Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/cipex-rbx/cipex/main/loader.lua"))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "BlackTrap",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/S4nZz/bt_project/main/Games/BlacktrapScript.txt'))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Jmes GUI",
+	Callback = function()
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/jmesfo0/RobloxScripts/main/psx-jmes.lua"))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "Catalyst Hub (Key!)",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/destylol/catalyst/itachi/main.lua'))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "ShinyTool (Key!)",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/XLinestX/ShinyTool_Key/main/Loader.lua"))()
+	end,
+})
+local Button = TabUtil:CreateButton({
+	Name = "Auto Merge GUI",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/bardium/random/main/mergepetsimulator.lua'))()
+	end,
+})
+local Button = TabUtil:CreateButton({
+	Name = "Crash Server GUI",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/UltraStuff/scripts2/main/petsimxcrasher"))()
+	end,
+})
+local Button = TabUtil:CreateButton({
+	Name = "Handy Bank GUI",
+	Callback = function()
+		loadstring(game:HttpGet("https://shub.fun/script/Pet-Simulator-X-Withdraw-Or-Deposit-simpleHub=XowQn23rBzbV.lua"))()
+	end,
+})
+local Button = TabOther:CreateButton({
+	Name = "Thunder Z",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Script"))()
+	end,
+})
+local Button = TabOther:CreateButton({
+	Name = "Phantom Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/destylol/masterhubv311/itachi/Main.lua"))()
+	end,
+})
+local Button = TabOther:CreateButton({
+	Name = "Petsi X GUI",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/dqfmXAAn"))()
+	end,
+})
+local Button = TabOther:CreateButton({
+	Name = "Dex Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://dexhub.xyz/loader.lua"))()
+	end,
+})
+local Button = TabOther:CreateButton({
+	Name = "Proxo GUI",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Pojken123/psxx/main/p"))()
+	end,
+})
+local Button = TabOther:CreateButton({
+	Name = "VG Hub",
+	Callback = function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	end,
+})
+local Button = TabOther:CreateButton({
+	Name = "JXNT Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://system-exodus.com/scripts/PetSimulator/PetSimulatorX.lua", true))()
+	end,
+})
+local Button = TabOther:CreateButton({
+	Name = "Ow Menu",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/inceldom/scrip/main/load",true))()
+	end,
+})
